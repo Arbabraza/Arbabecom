@@ -1,10 +1,19 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
+<p>
+    {% for prod in products %}
+    {{prod.prod_name}}
+      {{prod.price}}
+      {{prod.quantity}}
+      {{prod.size}}
 
+    {% endfor %}
+</p>
 </body>
 </html>
