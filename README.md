@@ -1,5 +1,5 @@
 
 
-# E-commerce DevOps PoC
+# E-commerce DevOps
 
 
